@@ -1,0 +1,89 @@
+ANTISÈCHE — KEYLAB MK3 & YAMAHA 02R
+===================================
+
+KeyLab mk3 — Banque A : j'enregistre
+====================================
+
+Template User chargé (Prog), pads sur le canal 16. Chaque appui affiche son effet dans la barre d'état d'Ableton.
+
+  Pad   Fonction
+  ---   ------------------------------------------------
+  A1    Enregistrement on/off
+  A2    Capture MIDI (récupère ce que tu viens de jouer)
+  A3    Métronome on/off
+  A4    Boucle on/off
+  A5    Annuler
+  A6    Rétablir
+  A7    Overdub MIDI on/off
+  A8    Tap tempo
+
+KeyLab mk3 — Banque B : je me déplace
+=====================================
+
+  Pad   Fonction
+  ---   -------------------------------
+  B1    Ajouter / supprimer un marqueur
+  B2    Marqueur précédent
+  B3    Marqueur suivant
+  B4    Armer la piste sélectionnée
+  B5    Piste précédente
+  B6    Piste suivante
+  B7    Retour au début
+  B8    Réactiver l'automation
+
+Yamaha 02R — Les 16 voies
+=========================
+
+Couche Remote, cible General MIDI. Les faders et les potards suivent Ableton grâce aux moteurs.
+
+  Commande           Action
+  ----------------   -----------------------------------------------------------
+  Fader 1-16         Volume de la piste
+  Potard 1-16        Selon le mode choisi (section suivante)
+  ON 1-16            Mute — toujours muter depuis la console, le voyant fait foi
+  SEL 1-16           Sélectionne la piste, ouvre le MixHub, potards en mode EQ
+  SEL double appui   Arme la piste en enregistrement
+  ON Master + SEL    Solo de la piste
+
+Yamaha 02R — Les modes des potards
+==================================
+
+ON 21 fait défiler les modes dans cet ordre : Pan → Send A → Send B → Send C → EQ → Retour A → Retour B → Retour C → Plugin. La section EQUALIZER y donne un accès direct :
+
+  Bouton EQUALIZER   Mode des potards
+  ----------------   ----------------------------------------------------
+  LOW/HPF            EQ (MixHub de la piste sélectionnée)
+  L-MID              Retour A (1er plugin de la piste de retour)
+  H-MID              Retour B
+  HIGH/LPF           Retour C
+  ON                 Plugin sélectionné dans Ableton (n'importe quel VST)
+
+En mode EQ, les potards pilotent le MixHub :
+
+  Potards   Réglages
+  -------   -----------------------------------
+  1-2       Coupe-bas, coupe-haut
+  3-4       LF : fréquence, dB
+  5-7       LMF : Q, fréquence, dB
+  8-10      HMF : Q, fréquence, dB
+  11-12     HF : fréquence, dB
+  13        Output
+  14-16     Compresseur : threshold, ratio, mix
+
+En modes EQ, Retour et Plugin, ON Master maintenu passe les potards sur la 2e page (réglages 17 à 32).
+
+Yamaha 02R — Banques, molette et ON Master
+==========================================
+
+Le ON du Master sert de touche Shift : appuyé seul, il fait autre chose que maintenu.
+
+  Commande                                    Action
+  -----------------------------------------   -------------------------------------
+  Flèche gauche / ON 19                       16 pistes vers la gauche
+  Flèche droite / ON 20                       16 pistes vers la droite
+  ON Master maintenu + flèche (ou ON 19/20)   Décalage d'une seule piste
+  ON Master appuyé seul                       Retour à la piste 1
+  ON Master maintenu + ON 21                  Suivi de sélection on/off
+  Molette                                     Réglage fin du dernier réglage touché
+
+Si un voyant ON ne correspond plus au mute d'Ableton, une alerte s'affiche dans la barre d'état.
